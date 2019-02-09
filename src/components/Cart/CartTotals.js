@@ -6,7 +6,7 @@ export default function CartTotals({ value, history }) {
     const { cartSubTotal, cartTax, cartTotal, clearCart } = value;
     return (
         <React.Fragment>
-            <div className="container-fluid">
+            <div className="container-fluid m-bt-30px">
                 <div className="container-fluid">
                     <div className="col-12 mt-2 mr-sm-2 ml-md-auto col-sm-8 text-capitalize text-right">
                         <Link to='/'>

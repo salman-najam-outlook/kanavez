@@ -15,7 +15,7 @@ class Details extends Component {
                                     <h1>{title}</h1>
                                 </div>
                             </div>
-                            <div className="row">
+                            <div className="row m-bt-30px">
                                 <div className="col-10 mx-auto col-md-6 my-3 text-capitalized">
                                     <img src={img} className="img-fluid" alt="Product" />
                                 </div>
