@@ -4,7 +4,7 @@
 }
 
 body {
-  font-family: 'Raleway', sans-serif !important;
+  font-family: 'Rubik', sans-serif !important;
   background: var(--mainWhite) !important;
 }
 
@@ -30,9 +30,29 @@ body {
 .cart-icon {
   cursor: pointer;
   font-size: 1.2rem;
-  color: red;
+  color: #dc3545;
 }
 
 .p-t8px {
   padding-top: 8px;
+}
+
+.sticky-footer {
+  position: fixed;
+  height: 30px;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: auto;
+  vertical-align: middle;
+  background: black;
+  line-height: 30px;
+}
+
+.navbar-custom-styling {
+  color:  white !important;
+}
+
+.title-color {
+  color: #dc3545;
 }

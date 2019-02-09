@@ -9,9 +9,9 @@ class Details extends Component {
                 {(value) => {
                     const { id, title, colors, code, company, img, price, description, inCart } = value.detailProduct;
                     return (
-                        <div className="container py-3">
+                        <div className="container py-2">
                             <div className="row">
-                                <div className="col-10 mx-auto text-center text-slanted my-3">
+                                <div className="col-10 mx-auto text-center text-slanted my-2 title-color">
                                     <h1>{title}</h1>
                                 </div>
                             </div>
@@ -23,7 +23,7 @@ class Details extends Component {
                                     <h4><b>Brand:</b> {company}</h4>
                                     <h4><b>Available Color:</b> {colors}</h4>
                                     <h4><b>Code:</b> {code}</h4>
-                                    <h4><b>Price:</b> {price}/- PKR</h4>
+                                    <h4><b>Price:</b> ${price}</h4>
                                     <h4><b>Description:</b> {description}</h4>
                                     <br></br><br></br>
                                     <Link to="/">

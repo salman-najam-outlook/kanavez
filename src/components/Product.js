@@ -29,7 +29,7 @@ class Product extends Component {
                         {title}
                     </p>
                     <h5>
-                        Rs:{price}-
+                        ${price}
                     </h5>
                 </div>
             </ProductWrapper>
@@ -66,6 +66,7 @@ const ProductWrapper = styled.div`
     }
     .card-footer{
         background: rgba(247,247,230);
+        color: #dc3545;
     }
 }
 .img-container{

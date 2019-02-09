@@ -29,7 +29,7 @@ export default function CartItem({ item, value }) {
                 </div>
             </div>
             <div className="col-10 mx-auto my-auto col-lg-2">
-                <strong>PKR.{total}/-</strong>
+                <strong>${total}</strong>
             </div>
         </div>
     )

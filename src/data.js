@@ -3,7 +3,7 @@ export const storeProducts = [
     id: 1,
     title: "Majestic Black",
     img: "img/image1.jpg",
-    price: 9990,
+    price: 70,
     fabric: "Chiffon",
     colors: "Black",
     code: "K-104",
@@ -15,10 +15,25 @@ export const storeProducts = [
     total: 0
   },
   {
+    id: 7,
+    title: "Gold Glitters",
+    img: "img/image7.jpg",
+    price: 65,
+    fabric: "Chiffon",
+    colors: "Gold",
+    code: "K-122",
+    company: "Kanavez",
+    description:
+      "Embroidered net front 0.85 yard, embroidered net front daman patch 1 pc, front neckline patch 1 pc, embroidered net back lace 0.85 yard, embroidered net back 0.85 yard, embroidered net sleeves 1 M, embroidered organza trouser lace 1 M, raw silk trouser 2.5 yard, embroidered pure chiffon dupata 2.5 M.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
+  {
     id: 2,
     title: "Enchanting Gold",
     img: "img/image2.jpg",
-    price: 9990,
+    price: 73,
     fabric: "Chiffon",
     colors: "Gold",
     code: "K-106",
@@ -30,41 +45,25 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 3,
-    title: "Royal Rogue",
-    img: "img/image3.jpg",
-    price: 9990,
+    id: 8,
+    title: "Dazzling Emerald",
+    img: "img/image8.jpg",
+    price: 75,
     fabric: "Chiffon",
-    colors: "Royal Red",
-    code: "K-103",
+    colors: " Emerald",
+    code: "K-122",
     company: "Kanavez",
     description:
-      "Embroidered pure chiffon front right side 1 pc, front left side 1 pc, embroidered organza daman lace 2.77 yard, embroidered organza neckline 1 pc, embroidered pure chiffon back 1 M, embroidered pure chiffon sleeves 1 M, embroidered organza sleeves lace 1 M, embroidered organza trouser lace 1 M, raw silk trouser 2.5 yard, embroidered net dupata 2.5 M.",
+      "Embroidered pure chiffon front 1 pc, embroidered organza daman lace 0.85 yard, embroidered organza neckline patch 1 pc, embroidered pure chiffon sleeves 1 M, embroidered organza sleeves lace 1 M, embroidered pure chiffon back 1 yard, embroidered organza trouser lace 1 M, raw silk trouser 2.5 yard, embroidered net dupatta 2.5 M.",
     inCart: false,
     count: 0,
     total: 0
   },
-  {
-    id: 4,
-    title: "Aqua Charm",
-    img: "img/image4.jpg",
-    price: 9990,
-    fabric: "Chiffon",
-    colors: "Aqua",
-    code: "K-115",
-    company: "Kanavez",
-    description:
-      "Embroidered pure chiffon front 0.85 yard, embroidered organza daman patch 1 pc, embroidered organza neckline patch 1 pc, embroidered pure sleeves 1 M , embroidered organza sleeves patch 2 pcs, plain pure chiffon back 1 yard, embroidered organza trouser patch 2 pcs, raw silk trouser 2.5 yard, embroidered net dupata 2.5 M.",
-    inCart: false,
-    count: 0,
-    total: 0
-  },
-
   {
     id: 5,
     title: "Floral Fantasy",
     img: "img/image5.jpg",
-    price: 9990,
+    price: 72,
     fabric: "Chiffon",
     colors: "Silver",
     code: "K-113",
@@ -79,7 +78,7 @@ export const storeProducts = [
     id: 6,
     title: "Dove Empire",
     img: "img/image6.jpg",
-    price: 9990,
+    price: 78,
     fabric: "Chiffon",
     colors: "Dove",
     code: "K-101",
@@ -91,27 +90,42 @@ export const storeProducts = [
     total: 0
   },
   {
-    id: 7,
-    title: "Majestic Black",
-    img: "img/image1.jpg",
-    price: 9990,
+    id: 4,
+    title: "Aqua Charm",
+    img: "img/image4.jpg",
+    price: 55,
     fabric: "Chiffon",
-    colors: "Black",
-    code: "K-104",
+    colors: "Aqua",
+    code: "K-115",
     company: "Kanavez",
     description:
-      "Embroidered pure chiffon front 1 pc, embroidered pure chiffon sleeves 1 M, embroidered organza sleeves lace 1 M, sleeves patch 2 pcs, embroidered pure chiffon back 1 yard, embroidered organza trouser lace 1 M, raw silk trouser 2.5 yard, embroidered net dupata 2.5 M.",
+      "Embroidered pure chiffon front 0.85 yard, embroidered organza daman patch 1 pc, embroidered organza neckline patch 1 pc, embroidered pure sleeves 1 M , embroidered organza sleeves patch 2 pcs, plain pure chiffon back 1 yard, embroidered organza trouser patch 2 pcs, raw silk trouser 2.5 yard, embroidered net dupata 2.5 M.",
     inCart: false,
     count: 0,
     total: 0
-  }
+  },
+  {
+    id: 3,
+    title: "Royal Rogue",
+    img: "img/image3.jpg",
+    price: 70,
+    fabric: "Chiffon",
+    colors: "Royal Red",
+    code: "K-103",
+    company: "Kanavez",
+    description:
+      "Embroidered pure chiffon front right side 1 pc, front left side 1 pc, embroidered organza daman lace 2.77 yard, embroidered organza neckline 1 pc, embroidered pure chiffon back 1 M, embroidered pure chiffon sleeves 1 M, embroidered organza sleeves lace 1 M, embroidered organza trouser lace 1 M, raw silk trouser 2.5 yard, embroidered net dupata 2.5 M.",
+    inCart: false,
+    count: 0,
+    total: 0
+  },
 ];
 
 export const detailProduct = {
   id: 1,
   title: "Majestic Black",
   img: "img/image1.jpg",
-  price: 9990,
+  price: 72,
   fabric: "Chiffon",
   colors: "Black",
   code: "K-104",

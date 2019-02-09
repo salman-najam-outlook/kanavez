@@ -19,10 +19,10 @@ export default class Modal extends Component {
                                 <div className="container">
                                     <div className="row">
                                         <div id="modal" className="col-8 mx-auto col-md-6 col-lg-4 text-center text-capitalize py-3">
-                                            <h5>Item has been added into cart!</h5>
+                                            <h4 className="title-color">{title}</h4>
+                                            <h6>has been added into cart!</h6>
                                             <img src={img} className="img-fluid p-2" alt={title} />
-                                            <h5>{title}</h5>
-                                            <h5 className="text-muted">Price: {price}PKR</h5>
+                                            <h6 className="text-muted">Price: ${price}</h6>
                                             <Link to="/">
                                                 <button onClick={()=>closeModal()}
                                                 className="btn btn-danger">
